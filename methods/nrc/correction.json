@@ -1,0 +1,45 @@
+{
+  "schema": "f01-experimental-correction-v1",
+  "head": {
+    "C": 1.0,
+    "coef": [
+      1.0952167582311898,
+      0.24284687737380042,
+      -1.0792617126442412,
+      -0.3585346018302081,
+      -0.42977807706841664,
+      -1.0493491845825818
+    ],
+    "gradient_before_polish": 6.310174605062002e-12,
+    "gradient_max_abs": 6.310174605062002e-12,
+    "iterations": 6,
+    "mean": [
+      -0.3553350081305054,
+      3.5766983562018493,
+      0.0016835016835016834,
+      0.006269592476489028,
+      0.5573185987943889
+    ],
+    "newton_polish_steps": 0,
+    "objective_and_statistical_specification_unchanged": true,
+    "objective_gap_upper_bound": 2.683642517645264e-23,
+    "scale": [
+      1.1638439439888089,
+      2.871759722447495,
+      0.009523323652344073,
+      0.02468341026335991,
+      0.02683589582037544
+    ],
+    "solver": "trust-exact+bounded-newton-polish",
+    "solver_success": true
+  },
+  "keys": [
+    "number_logrange",
+    "number_negative_fraction",
+    "number_decimal_fraction",
+    "contextual_update_alignment"
+  ],
+  "threshold": 0.5,
+  "anchor_epsilon": 1e-30,
+  "deployment_supported_effort": "default"
+}

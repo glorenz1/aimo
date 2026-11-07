@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "tests": 12,
+  "original_archives_verified": true,
+  "authorized_training_cells": 33,
+  "final_head_decisions_compared": 66,
+  "final_head_max_probability_or_margin_error": 0.0,
+  "held_group_nrc_occurrences": 99,
+  "held_group_nrc_max_probability_error": 2.220446049250313e-16,
+  "official_ingestion_with_cached_measurements": {
+    "pep": {
+      "cases": 33,
+      "invalid_predictions": 0
+    },
+    "nrc": {
+      "cases": 33,
+      "invalid_predictions": 0
+    }
+  },
+  "new_model_loads": 0,
+  "new_gpu_inferences": 0,
+  "scope": "Original authorized TRAIN cached endpoints and scalar features substituted explicitly; synthetic tests verify masks/arithmetic. Fresh GPU hook execution and full fitting were not rerun.",
+  "packaged_zip_sha256": {
+    "PEP": "618dd9b9a1d8723121f0b4ff46f8291a3d0c756193f3d3117fd05f250d95e748",
+    "NRC": "a289ea1f9c1e8edfd31d984cb1d71429b98368937b56bc50c2f34dc87402f408"
+  }
+}

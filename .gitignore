@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local scientific inputs, generated artifacts and HPC logs
+runs/
+dist/
+refit-env/
+*.out
+*.err
+!frozen/
+!frozen/PEP.zip
+!frozen/NRC.zip

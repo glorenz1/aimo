@@ -1,0 +1,68 @@
+{
+  "schema": "portfolio250-linear-v1",
+  "id": "NRC",
+  "head": {
+    "C": 0.1,
+    "coef": [
+      0.43640143350684807,
+      0.01158459028830693,
+      -0.354766731285287,
+      -0.13964661981673285,
+      -0.20800448184648512,
+      -0.3045105049463489,
+      0.00861152676833715,
+      -0.16912486394284243,
+      0.1068315038046916,
+      0.12179748807807075
+    ],
+    "gradient_before_polish": 4.57291982058905e-11,
+    "gradient_max_abs": 4.57291982058905e-11,
+    "iterations": 4,
+    "mean": [
+      -0.3553350081305054,
+      3.5766983562018493,
+      0.0016835016835016834,
+      0.006269592476489028,
+      0.5573185987943889,
+      -0.020983635600540295,
+      -0.06094833526713646,
+      0.020918768750255366,
+      0.07935412591545475
+    ],
+    "newton_polish_steps": 0,
+    "objective_and_statistical_specification_unchanged": true,
+    "objective_gap_upper_bound": 2.3239357684836737e-22,
+    "scale": [
+      1.1638439439888089,
+      2.871759722447495,
+      0.009523323652344073,
+      0.02468341026335991,
+      0.02683589582037544,
+      0.12052168836632315,
+      0.10863573687454343,
+      0.24360951934611164,
+      0.23662098560531436
+    ],
+    "solver": "trust-exact+bounded-newton-polish",
+    "solver_success": true
+  },
+  "keys": [
+    "number_logrange",
+    "number_negative_fraction",
+    "number_decimal_fraction",
+    "contextual_update_alignment",
+    "bf31_numeric_relation_endpoint_gap",
+    "bf31_numeric_identifier_endpoint_gap",
+    "bf31_numeric_relation_translation",
+    "bf31_numeric_identifier_translation"
+  ],
+  "extra_keys": [
+    "bf31_numeric_relation_endpoint_gap",
+    "bf31_numeric_identifier_endpoint_gap",
+    "bf31_numeric_relation_translation",
+    "bf31_numeric_identifier_translation"
+  ],
+  "requires_raw_roles": true,
+  "threshold": 0.5,
+  "interpretation": "Numerical/alignment correction plus endpoint-relative and body-centered lexical-region relationships."
+}

@@ -1,0 +1,43 @@
+{
+  "public_training_releases": [
+    {
+      "dataset": "aimo-interp/train-main-v2",
+      "revision": "23791d9b120132087877b0459f953d5959fc8455",
+      "url": "https://huggingface.co/datasets/aimo-interp/train-main-v2/tree/23791d9b120132087877b0459f953d5959fc8455",
+      "input_rows": 52,
+      "cohorts": [
+        "core",
+        "gpt_aux"
+      ]
+    },
+    {
+      "dataset": "aimo-interp/train-main-v2",
+      "revision": "fa8af758c6519fc97a9d0bd9017feb6f12232b52",
+      "url": "https://huggingface.co/datasets/aimo-interp/train-main-v2/tree/fa8af758c6519fc97a9d0bd9017feb6f12232b52",
+      "input_rows": 9,
+      "cohorts": [
+        "extra_small"
+      ]
+    }
+  ],
+  "encoder": {
+    "attention_backend": "sdpa",
+    "dtype": "bfloat16",
+    "files": {
+      "config.json": "1b1cbbba841c180e94192f7a25d2d97e21498fc1a0a0b4785942158af5eee183",
+      "model.safetensors.index.json": "a1719a4728ba274510dcae1d04474bd8a1e55270b8e756b750f92accf47e7557",
+      "tokenizer.json": "47d3a3ffb1ff38eb6a22f8a2d207306bfa3ea2499ff70df4baeaa559bf7453c7",
+      "tokenizer_config.json": "78872f2c1f0a5fb79d5872dbacb4c83991ef416315a25f34659e6a7c34108027"
+    },
+    "layer": 31,
+    "model_id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+    "revision": "6e8885a6ff5c1dc5201574c8fd700323f23c25fa",
+    "system_prompt": "You are a precise math problem solver. Solve the given problem step by step, then output your final answer on the last line in the exact format:\nANSWER: <your answer>\nThis result should be an integer value or NaN if the given problem does not have a solution.",
+    "tokenizer_backend": "canonical"
+  },
+  "encoder_access": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B/tree/6e8885a6ff5c1dc5201574c8fd700323f23c25fa",
+  "original_dataset_text_included": false,
+  "checkpoint_weights_included": false,
+  "supplied": "Frozen inference code/heads, label-free input allowlist and grouped CPU training/reconstruction code. Provider texts, per-case labels, feature banks and model weights are external inputs.",
+  "permission_note": "Dataset card lists license other. Obtain original texts from the pinned provider under its terms; they are unnecessary for reporting replay. No permission to redistribute model weights or original benchmark statements is inferred."
+}

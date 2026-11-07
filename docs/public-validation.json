@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.codabench.org/api/phases/30038/get_leaderboard/?page_size=all",
+  "phase_id": 30038,
+  "task_id": 36241,
+  "evaluation": "Competition-phase public validation",
+  "provenance": "Method-labelled numeric extract of saved official rows; account/submission/score IDs omitted for anonymous review. The original ledger is retained separately for organizers.",
+  "records": [
+    {
+      "method": "PEP",
+      "accuracy": "0.64",
+      "coverage": "1.0",
+      "invalid_predictions": "0.0"
+    },
+    {
+      "method": "NRC",
+      "accuracy": "0.64",
+      "coverage": "1.0",
+      "invalid_predictions": "0.0"
+    }
+  ],
+  "PEP_fraction": {
+    "value": "9/14",
+    "provenance": "saved user report; not a precise server receipt"
+  },
+  "NRC_exact_count": null
+}

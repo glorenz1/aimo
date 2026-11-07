@@ -1,0 +1,8 @@
+# Historical inference environment; install a CUDA build of torch on GPU hosts.
+accelerate==1.13.0
+huggingface-hub==1.22.0
+numpy==2.4.6
+safetensors==0.8.0
+tokenizers==0.22.2
+transformers==5.13.0
+torch~=2.12.1
